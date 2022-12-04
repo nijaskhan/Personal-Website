@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Nijas Khan - WebDeveloper</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Designer Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- icon -->
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<!--gallery -->
+	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+	<!-- //gallery -->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<!--//Custom Theme files-->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i" rel="stylesheet">
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="menu">
+						<a href="" id="menuToggle"> <span class="navClosed"></span> </a>
+						<nav>
+							<a href="#home" class="active scroll">Home</a>
+							<a href="#about" class="scroll">About Me</a>
+							<a href="#skills" class="scroll">Skills</a>
+							<a href="#gallery" class="scroll">My Work</a>
+							<a href="#services" class="scroll">Services</a>
+							<a href="#contact" class="scroll">Contact</a>
+						</nav>
+						<script>
+							(function ($) {
+								// Menu Functions
+								$(document).ready(function () {
+									$('#menuToggle').click(function (e) {
+										var $parent = $(this).parent('.menu');
+										$parent.toggleClass("open");
+										var navState = $parent.hasClass('open') ? "hide" : "show";
+										$(this).attr("title", navState + " navigation");
+										// Set the timeout to the animation length in the CSS.
+										setTimeout(function () {
+											console.log("timeout set");
+											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+										}, 200);
+										e.preventDefault();
+									});
+								});
+							})(jQuery);
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-text">
+				<div class="container">
+					<h1><a href="index.html">NIJAS KHAN</a></h1>
+					<h2 class="w3ls-bnrtext">I am <span> WEB DEVELOPER </span></h2>
+					<p class="w3ls-p">an interactive web developer with the passion for creativity</p>
+					<a href="#about" class="buy btn-wayra scroll">Explore my work</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="agile-about w3ls-section text-center" id="about">
+		<div class="container">
+			<h3 class="agileits-title">about me</h3>
+			<div class="agileits-about-grid">
+				<p>I am an Engineering graduate. And i graduated on 2022, I have 3 years of coding experience. My main focus is on Web Developing and have completed several projects, and the link to the project and description is given below if you want. I have and experience of coding python in more than 2 years, In web developing using HTML,CSS,BOOTSTRAP,JAVASCRIPT. If you want me to develop and design your website hit that HIRE ME button below.</p>
+			</div>
+			<a href="#contact" class="wthree- about-link scroll">hire me</a>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- about-bottom -->
+	<div class="agileits-about-btm">
+		<div class="container">
+			<div class="w3-flex">
+			<div class="col-md-4 col-sm-4 col-xs-12 ab1 agileits-about-grid1">
+				<span class="fa fa-trophy" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">awards</h4>
+				<h5>BEST WEB DESIGNER</h5>
+				<p>Designed NASA site, School Tech Fest</p>
+				<h5>PENETRATION TESTING</h5>
+				<p>Penetrated server and found the vulneribilty, Try Hack me</p>
+				<h5>BEST WEB DEVELOPER</h5>
+				<p>Designed Swiggy site, College Tech Fest</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid2">
+				<span class="fa fa-graduation-cap  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">education</h4>
+				<h5>BTECH ELECTRICAL AND ELECTRONICS</h5>
+				<p>Graduated on July 2022</p>
+				<h5>Anna University</h5>
+				<p>Affiliated Anna university, chennai</p>
+				<h5>High School</h5>
+				<p>Amritha Vidyalayam, puthiyakavu</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
+				<span class="fa fa-shield  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">expertise</h4>
+				<h5>Front-End</h5>
+				<p>1 year Experience</p>
+				<h5>Backend Designer</h5>
+				<p>1 year Experience</p>
+				<h5>Python-Script Writer</h5>
+				<p>3 year Experience</p>
+				<h5>BASH-Script Writer</h5>
+				<p>3 year Experience</p>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //about-bottom -->
+	<!-- skills -->
+	<div class="agile-service w3ls-section" id="skills">
+		<div class="container">
+			<div class="col-md-5 w3_agileits-service-left">
+				<h3 class="agileits-title">skills</h3>
+			</div>
+			<div class="col-md-7 skills-right">
+				<div class="vertical-skills  pull-right xs-center">
+					<ul class="list-inline">
+						<li>
+							<div class="skill" style="height:100%; background:#ff9d0d;"><span class="value">100%</span></div><span class="title">HTML</span></li>
+						<li>
+							<div class="skill" style="height:90%; background:#03a9f4;"><span class="value">90%</span></div><span class="title">CSS</span></li>
+						<li>
+							<div class="skill" style="height:80%; background:#b32eca;"><span class="value">80%</span></div><span class="title">JS</span></li>
+						<li>
+							<div class="skill" style="height:75%; background:#009688;"><span class="value">75%</span></div><span class="title">BASH</span></li>
+						<li>
+							<div class="skill" style="height:85%; background:#6361f0;"><span class="value">85%</span></div><span class="title">PYTHON</span></li>
+
+					</ul>
+				</div>
+				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="w3ls-section agileits-gallery" id="gallery">
+		<div class="container">
+			<h3 class="agileits-title">MY work</h3>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+				<ul id="myTab" class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home-main" aria-expanded="true">Show all</a></li>
+					<li role="presentation"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">Web design</a></li>
+					<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">Python Script</a></li>
+					<li role="presentation"><a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">Illustration</a></li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/Win11-Hacker">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project1.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Python Hacking OS</h5>
+									<p>Python Script</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/compiler-PYTHON-to-EXE">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project2.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Python Compiler</h5>
+									<p>python Script </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/SpaceX-Responsive---clone">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project3.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Web Developing</h5>
+									<p>SpaceX website</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/TCS-clone">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project4.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Web Developing</h5>
+									<p>TCS website</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/keylogger-withMAILservice">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project5.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Keylogger</h5>
+									<p>Python Script</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/wifi-password-catcher">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project6.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Wifi netsh</h5>
+									<p>Python Script</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/smtpmultimail">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project7.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Email code</h5>
+									<p>Python Script</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/Base64_Enc-Dcrption">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project8.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Encoder</h5>
+									<p>Python Script</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/SpaceX-Responsive---clone">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project3.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>SpaceX Responsive Website</h5>
+									<p>HTML, CSS,BOOTSTRAP</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/TCS-clone">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project4.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>TCS Responsive Website</h5>
+									<p>HTML, CSS, BOOTSTRAP</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/Win11-Hacker">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project1.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>PYTHON HACKING OS</h5>
+									<p>Python Script</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/Base64_Enc-Dcrption">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project8.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>BASE64 ENCODER</h5>
+									<p>Python Script</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/keylogger-withMAILservice">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project5.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>MAILING KEYLOGGER</h5>
+									<p>Python Script</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/smtpmultimail">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project7.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>SEND GMAIL WITH CODE</h5>
+									<p>Python Script</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/SpaceX-Responsive---clone">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project3.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>SPACEX RESPONSIVE SITE</h5>
+									<p>HTML, CSS, BOOTSTRAP </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/TCS-clone">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project4.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>TCS HOMEPAGE</h5>
+									<p>HTML, CSS</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="https://github.com/EthanHunt0001/Win11-Hacker">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/project1.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>HACKING OS</h5>
+									<p>Python Script</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.tools.min.js"></script>
+		<script src="js/jquery.mobile.custom.min.js"></script>
+		<script src="js/jquery.cm-overlay.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.cm-overlay').cmOverlay();
+			});
+		</script>
+	</div>
+	<!-- //menu -->
+	<!-- services -->
+	<div class="w3ls-section services" id="services">
+		<div class="container">
+			<h3 class="agileits-title text-center">services</h3>
+			<div class="services-w3ls-row agileits-w3layouts service1 text-center">
+				<h5>web design</h5>
+				<p>Web Deisgns using HTML, CSS, BOOTSTRAP</p>
+				<div class="s-top">
+					<span class="fa fa-laptop" aria-hidden="true"></span>
+				</div>
+			</div>
+			<div class="services-w3ls-row agileits-w3layouts middlegrid-w3ls">
+				<div class="col-md-4 services-grid agileits-w3layouts service2">
+					<div class="col-md-10 w3ls-sub-text">
+						<h5>web development</h5>
+						<p>Web Development using HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY, AJAX</p>
+					</div>
+					<div class="col-md-2 sub-icon">
+						<span class="fa fa-caret-square-o-up" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div class="col-md-4 services-grid img-agileits">
+					<img src="images/services.jpg" class="img-responsive" alt="" />
+				</div>
+				<div class="col-md-4 services-grid agileits-w3layouts service3">
+					<div class="col-md-2 sub-icon">
+						<span class="fa fa-grav" aria-hidden="true"></span>
+					</div>
+					<div class="col-md-10 w3ls-sub-text">
+						<h5>photoshop designer</h5>
+						<p>Inbuilt tools : camera raw filter, polerisation, noise filter, effects, cloning tools</p>																	
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="services-w3ls-row agileits-w3layouts service4">
+				<div class="s-top">
+					<span class="fa fa-adjust" aria-hidden="true"></span>
+				</div>
+				<h5>seo</h5>
+				<p>The goal of performing SEO on any given webpage is to improve the quality of your content</p>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!-- contact -->
+	<div class="contact-w3-agileits w3ls-section" id="contact">
+		<div class="container">
+			<h3 class="agileits-title cont-w3l">Feel free to contact me</h3>
+			<div class="contact-main-w3ls">
+				<div class="col-md-6  contact-left-w3ls">
+					<div class="mail contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Mail me</h4>
+						</div>
+						<div class="col-md-8  col-sm-8 col-xs-8 contact-text-agileinfo">
+							<a href="mailto:nijaskhan150@gmail.com">nijaskhan150@gmail.com</a><br>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="call contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Phone</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>+918547031325</p>
+							<p>+917736063757</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Address</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>Puthenveetil,Adinadu south,<br> Kattilkadavu PO,Karunagappally,Kollam,<br>KERALA,INDIA.
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="visit wthree-social-icons contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Follow me</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<ul class="w3-links">
+								<li><a href="https://www.facebook.com/nijas.nijaskhan.1/"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/nijaskhan93"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/nijas-khan-073712230/"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="contact-main">
+					<div class="col-md-6 agileits-main-right">
+						<form action="" method="post" class="agile_form" name="gform" id="gform">
+							<label class="header">Full Name</label>
+							<div class="icon1 w3ls-name1">
+								<input  type="text"  name="name" id="name" placeholder="Your Name" onkeyup="validateName()" required>
+                  				<span id="name-error" class="validation-label"></span>
+							</div>
+							<div class="icon2">
+								<label class="header">Email</label>
+								<input placeholder="Email" name="email" id="email" type="email" onkeyup="validateEmail()" required>
+								<span id="email-error" class="validation-label"></span>
+							</div>
+							<label class="header">Enter your message</label>
+							<textarea class="w3l_summary" name="message" id="message" placeholder="write message" onkeyup="validateMessage()" required></textarea>
+							<span id="message-error" class="validation-label"></span>
+							<input type="submit" value="SEND" onclick="return validateForm()">
+							<span id="submit-error" class="text-center button-form validation-label"></span>
+						</form>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- VALIDATION -->
+	<script>
+
+		var nameError = document.getElementById('name-error');
+        var emailError = document.getElementById('email-error');
+        var messageError = document.getElementById('message-error');
+        var submitError = document.getElementById('submit-error');
+          
+          
+        function validateName() {            
+            var name= document.getElementById('name').value;
+        
+            if(name.length == 0){
+                nameError.innerHTML = 'Name is required';
+                return false;
+            }
+            if(!name.match(/^[A-Za-z]+ [A-Za-z]+$/)) {
+                nameError.innerHTML = 'Write full name';
+                return false;
+            }
+            nameError.innerHTML = '';
+                return true;
+        }
+
+		function validateEmail(){
+			var email = document.getElementById('email').value;
+
+			if(email.length==0){
+				emailError.innerHTML = 'Email is required';
+				return false;
+			}
+			if(!email.match(/^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/)){
+				emailError.innerHTML = 'Email invalid';
+				return false;
+			}
+			emailError.innerHTML = '';
+			return true;
+		}
+
+		function validateMessage(){
+			var message = document.getElementById('message').value;
+
+			if(message.length==0){
+				messageError.style.display = 'block';
+				messageError.innerHTML = 'Enter a valid message';
+				return false
+			}
+			messageError.innerHTML='';
+			return true;
+		}
+
+		function validateForm(){
+			if(!validateEmail() || !validateMessage() || !validateName()){
+				submitError.style.display = 'block';
+                submitError.innerHTML = 'Please fix all errors to submit.';
+                setTimeout(function() {submitError.style.display = 'none';}, 3000);
+				return false;
+			}
+		}
+
+	</script>
+
+	<!-- //contact -->
+
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+
+	<!-- getting message on mail -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $("#gform").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbyAlFUOxauy2yoqsdw3pL_Ji5oBDIpmh7GrcjgbHsfmpLp6L-mhKzjYbR8YMx-sSPDEOg/exec",
+                data:$("#gform").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+                }
+            })
+        })
+    </script>
+
+	<!-- till here -->
+
+    <script src="./js/script.js"></script>
+	<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
